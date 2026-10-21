@@ -72,14 +72,3 @@ The old Next.js scaffold, committed dependencies, duplicate assets and temporary
 This is a consolidation of **the team's Dripless project**, not a new solo project. The original Git history records work by `Sail-endra` / `skaruparthi`, `BADBOYROY` / `xinrui`, and `CedricLiu87`. The source, project story, original design, video and team contributions are credited above. See [the recovery notes](docs/RECOVERY.md) for exact source revisions and changes.
 
 No new license is assigned to the team's original code or media in this cleanup.
-
-## 中文快速说明
-
-- 安装 Node.js 22.12 或以上，在仓库根目录执行 `npm ci`、`npm run demo` 即可体验页面流程。
-- 真实 AI 功能：复制 `.env.example` 为 `.env`，填写 OpenAI 和 SearchAPI 密钥，然后运行 `npm run dev`。
-- 演示模式是固定样例，不会把样例冒充 AI 识别结果。商品搜索失败和图片生成失败都会显示提示。
-- 本版本从 GitHub 保存的代码恢复；没有找到此前可能删除的本地代码文件夹。
-
-## Optional GitHub Actions
-
-A ready-to-use workflow is saved at `docs/ci/github-actions.yml.example`. To enable automatic checks, copy it to `.github/workflows/ci.yml` with an account/token authorized to edit workflows. The publishing token available during restoration did not have the `workflow` scope, so no active workflow is installed. Local checks above were run successfully.
