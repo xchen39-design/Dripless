@@ -1,0 +1,20 @@
+{
+  "name": "dripless",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "demo": "node scripts/dev.mjs --demo",
+    "build": "npm run build --workspace client",
+    "start": "node server/index.js",
+    "lint": "npm run lint --workspace client",
+    "test": "node --test server/*.test.js"
+  }
+}
